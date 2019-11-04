@@ -26,3 +26,6 @@ def count(request):
 		'worddict':word_dict,
 		'sortdict':sorted_dict
 		})
+
+def about(request):
+	return render(request, 'about.html')
