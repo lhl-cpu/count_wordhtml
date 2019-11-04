@@ -1,0 +1,8 @@
+<h1>字数统计：{{  count  }}</h1><br>
+用户输入内容: {{  text  }}
+<br>
+<br>
+{% for word,count in sortdict %}
+{{  word  }} - {{  count  }}
+<br>
+{% endfor %}
